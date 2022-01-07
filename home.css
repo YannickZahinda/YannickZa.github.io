@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border:none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color:#eff2f9;
+    padding: 25px;
+}
+
+.main-container {
+    height: 90px;
+    width: 100%;
+}
+
+.home-page-main-container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.humburger {
+    font-size: 25px;
+    border: 1px solid white;
+    background-color: #fff;
+    color: gray;
+    border-radius: 4px;
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+}
+
+.notification {
+    border: 1px solid white;
+    background-color: #fff;
+    color: gray;
+    border-radius: 4px;
+    padding: 6px;
+    width: 40px;
+    height: 40px;
+}
+
+.notification i {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.payment-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.profile-img-wrapper {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.profile-img-wrapper img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.profile-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-detail span:first-child{
+    font-size: 20px;
+    color: #092c9f;
+    margin-bottom: 5px;
+}
+
+.profile-detail span:last-child{
+    font-size: 16px;
+    font-weight: 300;
+    color: #a2a2a3;
+}
+
+.money-detail {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.money-detail-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-money-wrapper .money-first-detail {
+    font-size: 15px;
+    color: #a2a2a3;
+    margin-bottom: 5px;
+}
+
+.profile-money-wrapper .money-first-detail span {
+    color:#092c9f;
+    margin-left: 5px;
+}
+
+.see-detail button {
+    padding: 12px;
+    background-color: #092c9f;
+    border-radius: 5px;
+}
+
+.see-detail button i {
+    font-size: 16px;
+    color: #fff;
+}
+.debit-card{
+    margin-top: 15px;
+    height: max-content;
+    width: 40%;
+    background-color: #f8f9fb;
+    border-radius: 20px;
+}
+
+#card-image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.debit-card-child{
+   color: brown;
+   text-align: right;
+}
+.debit-card-first{
+    margin-top: 15px;
+    width: 40%;
+    border-radius: 20px;
+    height: max-content;
+}
+
+.main-debit-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-words{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.cards{
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+#card{
+    margin-top: 8px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    background-color: rgb(155, 151, 151);
+}
+
+#img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+
+
+.big-card{
+    width: 100%;
+    height: 140px;
+    border-radius: 15px;
+    background-color: rgb(62, 62, 177);
+    margin: 0 auto;
+}
+
+
+
+#footer{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(155, 151, 151);
+    border-radius: 10px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#icon{
+    padding: 9px;
+    margin-top: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 45px;
+}
+
+
+
+
+
+@media only screen and (max-width:992px){
+    .main-debit-card{
+        margin: 15px;
+    }
+
+    .debit-card{
+        margin-right: 20px;
+    }
+
+    body{
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #card{
+        height: 90px;
+        width: 90px;
+        border-radius: 9px;
+    }
+
+    .cards{
+        width: max-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-area: 60px;
+    }
+
+    #card{
+        margin: 8px;
+    }
+    .big-card{
+        margin: 0 auto;
+    }
+
+}
+
+
